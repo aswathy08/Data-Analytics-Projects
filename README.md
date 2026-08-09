@@ -1,57 +1,60 @@
-# CODEALPHA Data Visualisation Project
+# CodeAlpha Internship Projects – Data Analytics
 
-## 📊 Project Overview
-This project was completed as part of my **Data Analytics Internship at CodeAlpha**.  
-The goal is to perform **data visualisation** on the `amazon.csv` dataset to uncover insights about product categories, pricing, discounts, and customer ratings.
+## 📊 Overview
+This repository contains the projects I completed during my **Data Analytics Internship at CodeAlpha**.  
+Each folder includes the dataset, Jupyter Notebook, and a README.md with insights.
 
 ---
 
-## 📂 Dataset
-- **File:** `amazon.csv`
-- **Columns:**
-  - `product_id`, `product_name`, `category`
-  - `discounted_price`, `actual_price`, `discount_percentage`
-  - `rating`, `rating_count`
-  - `review_title`, `review_content`, `user_id`, `user_name`
-- **Size:** Amazon product and review data with pricing and ratings.
+## 📂 Projects
+
+### 1. Data Visualisation
+- **Goal:** Visualize Amazon product dataset using Python (Pandas, Matplotlib, Seaborn).
+- **Highlights:**
+  - Bar chart: Top categories by rating count.
+  - Histogram: Price distribution.
+  - Scatter plot: Price vs Rating.
+  - Heatmap: Correlation between numerical features.
+- **Key Insight:** Affordable products dominate sales, while discounts don’t strongly influence ratings.
+
+---
+
+### 2. Sales Analysis
+- **Goal:** Analyze transactional sales data to identify revenue trends and customer behavior.
+- **Highlights:**
+  - Category‑wise revenue comparison.
+  - Monthly/quarterly sales trends.
+  - Regional performance analysis.
+- **Key Insight:** Electronics and Fashion drive the highest revenue, with festive months showing peak sales.
+
+---
+
+### 3. Exploratory Data Analysis (EDA)
+- **Goal:** Perform EDA on Amazon dataset to uncover hidden patterns and relationships.
+- **Highlights:**
+  - Data cleaning (currency conversion, missing values).
+  - Univariate and bivariate analysis.
+  - Correlation heatmap.
+- **Key Insight:** Discounts have weak correlation with ratings, while product quality drives customer satisfaction.
 
 ---
 
 ## 🛠️ Tools & Libraries
-- **Python** (Pandas, Matplotlib, Seaborn)
-- **Jupyter Notebook**
-- **GitHub** (for project documentation)
-
----
-
-## 📈 Visualisations & Insights
-
-### 1. Bar Chart – Top Categories by Rating Count
-- Electronics and Mobile Accessories dominate customer engagement.
-- Niche categories like Books and Home Decor have fewer ratings.
-
-### 2. Histogram – Price Distribution
-- Most products are priced below ₹2000, showing affordability is key.
-- Premium products above ₹10,000 form a very small share.
-
-### 3. Scatter Plot – Price vs Rating
-- Moderately priced products (₹500–₹2000) tend to have higher ratings.
-- Very cheap products sometimes score lower, hinting at quality issues.
-
-### 4. Heatmap – Correlation Between Features
-- Discounted Price and Actual Price are strongly correlated.
-- Discounts don’t directly improve ratings — customers value quality.
-- Popular products (high rating_count) often have slightly better ratings.
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+- GitHub (for documentation)
 
 ---
 
 ## ✅ Conclusion
-This project demonstrates how **data visualisation helps uncover business insights**.  
-By analyzing product categories, pricing, and customer feedback, we can better understand consumer behavior and market trends.
+These projects demonstrate my ability to:
+- Clean and prepare datasets.
+- Perform exploratory and sales analysis.
+- Visualize data effectively.
+- Interpret insights for business decision‑making.
 
 ---
 
 ## 🚀 Next Steps
-- Build interactive dashboards using **Plotly** or **Power BI**.
-- Extend analysis to include **sentiment analysis** of reviews.
-
+- Extend projects with predictive modeling (sales forecasting, sentiment analysis).
+- Build interactive dashboards using Power BI or Tableau.
